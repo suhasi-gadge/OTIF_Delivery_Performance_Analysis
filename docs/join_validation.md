@@ -30,26 +30,26 @@ Key transformations included:
 
 ## Staging Row Counts
 
-|       Table Name        | Row Count |
-|-------------------------|-----------|
-| stg.customers           | **99,442** |
-| stg.sellers             | **3,096** |
-| stg.products            | **32,952** |
-| stg.orders              | **99,441** |
+|       Table Name        | Row Count   |
+|-------------------------|-------------|
+| stg.customers           | **99,442**  |
+| stg.sellers             | **3,096**   |
+| stg.products            | **32,952**  |
+| stg.orders              | **99,441**  |
 | stg.order_items         | **112,650** |
-| stg.order_reviews_dedup | **98,673** |
+| stg.order_reviews_dedup | **98,673**  |
 
 ---
 
 ## Join Coverage Results
 
-| Join Relationship | Coverage / Result |
-|------------------|------------------|
-| orders ↔ customers | 100% |
-| orders ↔ order_items | 99.22% |
-| order_items ↔ sellers | 0% missing |
-| order_items ↔ products | 0% missing |
-| orders ↔ reviews_dedup | 99.23% |
+|    Join Relationship   | Coverage / Result |
+|------------------------|-------------------|
+| orders ↔ customers     |         100%      |
+| orders ↔ order_items   |      99.22%       |
+| order_items ↔ sellers  |     0% missing    |
+| order_items ↔ products |     0% missing    |
+| orders ↔ reviews_dedup |      99.23%       |
 
 ---
 
