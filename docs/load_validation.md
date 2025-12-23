@@ -21,16 +21,16 @@ The following tables were loaded into the `raw` schema:
 
 ## Row Count Validation
 
-| Table Name | Row Count |
-|-----------|----------|
-| raw.customers | ⬅️ paste |
-| raw.sellers | ⬅️ paste |
-| raw.products | ⬅️ paste |
-| raw.product_category_name_translation | ⬅️ paste |
-| raw.orders | ⬅️ paste |
-| raw.order_items | ⬅️ paste |
-| raw.order_payments | ⬅️ paste |
-| raw.order_reviews | ⬅️ paste |
+|               Table Name              | Row Count   |
+|---------------------------------------|-------------|
+| raw.customers                         | **99,442**  |
+| raw.sellers                           |  **3,096**  |
+| raw.products                          | **32,952**  |
+| raw.product_category_name_translation |    **72**   |
+| raw.orders                            | **99,442**  |
+| raw.order_items                       | **112,651** |
+| raw.order_payments                    | **103,887** |
+| raw.order_reviews                     | **99,225**  |
 
 ---
 
