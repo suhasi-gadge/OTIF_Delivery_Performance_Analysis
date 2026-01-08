@@ -110,7 +110,7 @@ An interactive **Power BI dashboard** was built for operational and executive st
 * Breakdown of OTIF failures (late vs incomplete)
 * Drill-down views for root cause analysis
 
-![OTIF_Delivery_Performance_Analysis](assets/dashboard_overview.png)
+![OTIF_Delivery_Performance_Analysis](asset/dashboard_overview.png)
 
 ---
 
